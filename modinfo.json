@@ -1,0 +1,104 @@
+{
+    "author": "DeathByDenim",
+    "build": "77725",
+    "category": [
+        "ui"
+    ],
+    "context": "client",
+    "date": "2015/03/15",
+    "description": "Rescales the entire UI to 70% of the original.",
+    "display_name": "70% UI",
+    "enabled": true,
+    "forum": "",
+    "icon": "https://raw.githubusercontent.com/DeathByDenim/uienhancements/master/ui_enhancements.png",
+    "id": "com.pa.DeathByDenim.70percent_ui",
+    "identifier": "com.pa.DeathByDenim.70percent_ui",
+    "priority": 100,
+    "scenes": {
+        "armory": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "guide": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_action_bar": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_build_bar": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_build_hover": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_celestial_control": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_econ": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_hover": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_menu": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_message": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_chat": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_paused_popup": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_planets": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_players": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_selection": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game_time_bar": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "matchmaking": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "new_game": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "new_game_ladder": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "replay_browser": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "server_browser": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "settings": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "start": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "system_editor": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "transit": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "uberbar": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+        ],
+        "live_game": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/live_game.js"
+        ]
+    },
+    "signature": "not yet implemented",
+    "version": "1.0",
+    "content_id": "com.pa.DeathByDenim.ui_enhancements",
+    "store_id": "com.pahub.content.plugin.store.mod.client"
+}
