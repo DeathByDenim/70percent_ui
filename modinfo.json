@@ -6,8 +6,8 @@
     ],
     "context": "client",
     "date": "2015/03/15",
-    "description": "Rescales the entire UI to 70% of the original.",
-    "display_name": "70% UI",
+    "description": "Rescales the entire UI. See settings to change scale.",
+    "display_name": "UI zoom",
     "enabled": true,
     "forum": "",
     "icon": "https://raw.githubusercontent.com/DeathByDenim/uienhancements/master/ui_enhancements.png",
@@ -15,83 +15,93 @@
     "identifier": "com.pa.DeathByDenim.70percent_ui",
     "priority": 100,
     "scenes": {
+        "global_mod_list": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.js"
+        ],
         "armory": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "guide": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_action_bar": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_build_bar": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_build_hover": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_celestial_control": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
+        ],
+        "live_game_control_group_bar": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_econ": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
+        ],
+        "live_game_footer": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_hover": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_menu": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_message": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_chat": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
+        ],
+        "live_game_options_bar": [
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_paused_popup": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_planets": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_players": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_selection": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game_time_bar": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "matchmaking": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "new_game": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "new_game_ladder": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "replay_browser": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "server_browser": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "settings": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js",
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/settings.js"
         ],
         "start": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "system_editor": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
-        ],
-        "transit": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "uberbar": [
-            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/global.css"
+            "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/scale.js"
         ],
         "live_game": [
             "coui://ui/mods/com.pa.DeathByDenim.70percent_ui/live_game.js"
